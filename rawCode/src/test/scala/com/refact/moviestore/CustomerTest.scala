@@ -46,8 +46,9 @@ class CustomerTest {
   }
 
   /*
-  public void testHtml() throws Exception {
-      equalsFile("1st Output", "outputHtml", dinsdale.htmlStatement());
+  @Test
+  def shouldTestTheGivenRentalsForHTMLStatement() = {
+      equalsFile("1st Output", "outputHtml", customer.htmlStatement())
   }
   */
 
